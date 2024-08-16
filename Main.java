@@ -21,5 +21,6 @@ public class Main extends Application {
 		
 				System.out.println("Started the Project two times");
         launch(args);
+		System.out.println("Project Ended");
     }
 }
