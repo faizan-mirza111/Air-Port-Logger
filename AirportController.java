@@ -58,6 +58,7 @@ public class AirportController {
     public void initialize() {
         try {
             landedFlightsListView.setItems(model.getLandedFlights());
+			System.out.println("Checkout!..");
             logger.info("Airport Controller initialized. Landed flights list view set.");
         } catch (Exception e) {
             logger.error("Error initializing Airport Controller: ", e);

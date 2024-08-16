@@ -18,6 +18,9 @@ public class Main extends Application {
 
     public static void main(String[] args) {
 		System.out.println("Started the Project");
+		
+				System.out.println("Started the Project two times");
         launch(args);
+		System.out.println("Project Ended");
     }
 }
