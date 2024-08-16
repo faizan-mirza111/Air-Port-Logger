@@ -20,7 +20,10 @@ import javafx.scene.image.Image;
 
 public class AirportAnimation extends AirportController{
 	 private static final Logger logger = LoggerFactory.getLogger(AirportController.class);
+
+=======
 	 System.out.println("Checkout! Boys...here we come");
+>>>>>>> 51dc2558ec3c039fded78bacefd64874dbc64e92
 
     public void animateLanding(String flightNumber, int position, Runnable onComplete) {
     	try {
